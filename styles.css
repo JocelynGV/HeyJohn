@@ -1,0 +1,30 @@
+#carDriving {
+    width: 75%; 
+    height: 50%;
+}
+
+.flexbox-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.flexbox-column {
+    flex-direction: column;
+}
+
+#h1Append {
+    transition: opacity 0.5s ease;
+}
+
+#h1Append span {
+    visibility: false;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#h1Append span.show {
+    visibility: visible;
+    opacity: 1;
+}
