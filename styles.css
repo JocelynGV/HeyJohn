@@ -1,5 +1,5 @@
 #carDriving {
-    width: 75%; 
+    width: 60%; 
     height: 50%;
 }
 
@@ -27,4 +27,8 @@
 #h1Append span.show {
     visibility: visible;
     opacity: 1;
+}
+
+.picture {
+    width: 200px;
 }
